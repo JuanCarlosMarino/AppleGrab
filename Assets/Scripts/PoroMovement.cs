@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PoroMovement : MonoBehaviour
 {
-    [Tooltip("velocidad de caida en unidades de unity")]
-    [SerializeField] public float velocitiy = 1;
+    [SerializeField] private float VelocidadMin = 1f;
+    [SerializeField] private float VelocidadMax = 5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +15,6 @@ public class PoroMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.down * velocitiy * Time.deltaTime;
+        transform.position += Vector3.down * Random.Range(VelocidadMin,VelocidadMax) * Time.deltaTime;
     }
 }

@@ -10,11 +10,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyPoro.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PoroSpawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PadMovement.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PoroSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PadMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyPoro.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PoroMovement.cs" />
       </list>
     </option>
@@ -61,7 +69,7 @@
       <updated>1601150459740</updated>
       <workItem from="1601150581091" duration="182000" />
       <workItem from="1601151935206" duration="2136000" />
-      <workItem from="1601221338296" duration="823000" />
+      <workItem from="1601221338296" duration="8723000" />
     </task>
     <servers />
   </component>
