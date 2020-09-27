@@ -7,8 +7,6 @@ public class DestroyPoro : MonoBehaviour
 {
     public GameObject pad;
     public GameObject limiteInferior;
-    
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -27,12 +25,12 @@ public class DestroyPoro : MonoBehaviour
         {
             Score.puntaje++;
             Destroy(gameObject);
+            
         }else if (collision.gameObject.tag == "limiteInferior")
         {
             vidas.vida--;
             Destroy(gameObject);
         }
-        
     }
 
 }

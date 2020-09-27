@@ -21,4 +21,5 @@ public class vidas : MonoBehaviour
             SceneManager.LoadScene(3);
         }
     }
+
 }

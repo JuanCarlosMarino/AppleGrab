@@ -20,14 +20,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PoroSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PadMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PoroMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyPoro.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VolverMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/vidas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyPoro.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/vidas.cs" />
       </list>
     </option>
   </component>
@@ -75,7 +75,7 @@
       <workItem from="1601151935206" duration="2136000" />
       <workItem from="1601221338296" duration="8723000" />
       <workItem from="1601235212169" duration="107000" />
-      <workItem from="1601235591897" duration="3774000" />
+      <workItem from="1601235591897" duration="6945000" />
     </task>
     <servers />
   </component>
