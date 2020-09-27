@@ -15,6 +15,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PoroMovement.cs" />
       </list>
     </option>
   </component>
@@ -59,7 +60,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601150459740</updated>
       <workItem from="1601150581091" duration="182000" />
-      <workItem from="1601151935206" duration="1537000" />
+      <workItem from="1601151935206" duration="2136000" />
+      <workItem from="1601221338296" duration="823000" />
     </task>
     <servers />
   </component>
