@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f89317cdc660fb42a95e4eac3dae20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VelocidadMin: 1
+  VelocidadMin: 5
   VelocidadMax: 10
 --- !u!114 &-7784830435582255317
 MonoBehaviour:
@@ -149,3 +149,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e922662a7879c8419297a1a32f6dc52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pad: {fileID: 6538668888233863905, guid: a042a6a7efba645429a11ceb99fee001, type: 3}
+  limiteInferior: {fileID: 4919388772681883269, guid: 98a716d14ad86044b909d84a5c9e95ee, type: 3}

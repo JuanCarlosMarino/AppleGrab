@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class DestroyPoro : MonoBehaviour
 {
+    public GameObject pad;
+    public GameObject limiteInferior;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,9 +21,18 @@ public class DestroyPoro : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
+        if (collision.gameObject.tag == "pad")
+        {
+            Score.puntaje++;
+            Destroy(gameObject);
+        }else if (collision.gameObject.tag == "limiteInferior")
+        {
+            vidas.vida--;
+            Destroy(gameObject);
+        }
+        
     }
 
 }

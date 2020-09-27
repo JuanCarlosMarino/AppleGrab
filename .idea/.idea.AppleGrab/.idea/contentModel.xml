@@ -13,6 +13,9 @@
           <e p="PadMovement.cs" t="Include" />
           <e p="PoroMovement.cs" t="Include" />
           <e p="PoroSpawn.cs" t="Include" />
+          <e p="Score.cs" t="Include" />
+          <e p="vidas.cs" t="Include" />
+          <e p="VolverMenu.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
